@@ -1,0 +1,10 @@
+.monster-search-box,.search-box{ 
+    border: none;
+    background-color: lightblue;
+    outline: none;
+    padding: 10px;
+    appearance: none;
+    width:200px;
+    line-height: 30px;
+    margin: 20px auto;
+}
