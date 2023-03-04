@@ -1,8 +1,53 @@
-import React from 'react';
-import './App.css';
-import Cardlist from './components/card-list/Cardlist.component';
-import Searchbox from './components/search-box/Searchbox.component';
-class App extends React.Component {
+import { useState, useEffect } from "react";
+import "./App.css";
+import Cardlist from "./components/card-list/Cardlist.component";
+import Searchbox from "./components/search-box/Searchbox.component";
+
+const App = () => {
+  console.log("render");
+  const [searchField, setSearchField] = useState("");
+  const [testsearchField, settestSearchField] = useState("");
+  const [monsters, setMonsters] = useState([]);
+  const [filteredMonsters, setFilteredMonsters] = useState(monsters);
+  // console.log(searchField);
+  useEffect(() => {
+    console.log(" use Effect ");
+    fetch("https://jsonplaceholder.typicode.com/users")
+      .then((response) => response.json())
+      .then((user) => setMonsters(user));
+  }, []);
+
+  useEffect(() => {
+    console.log("fire filter effect");
+    const filteredMonstersArr = monsters.filter((m) =>
+      m.name.toLowerCase().includes(searchField)
+    )
+    setFilteredMonsters(filteredMonstersArr);
+  }, [monsters, searchField]);
+
+  const serachOnChange = (e) => {
+    let searchString = e.target.value.toLowerCase();
+    setSearchField(searchString);
+  };
+  const searchtest = (e) => {
+    settestSearchField(e.target.value)
+  };
+
+
+  return (
+    <div>
+      <h1 className="app-title"> Monster Rolodex</h1>
+      <Searchbox
+        className="monster-search-box"
+        onChangeHandler={serachOnChange}
+        placeholder="search monster"
+      />
+      <Searchbox onChangeHandler={searchtest} />
+      <Cardlist monsters={filteredMonsters} />
+    </div>
+  )
+};
+/* class App extends React.Component {
   constructor() {
     console.log("1.constructor in app");
     super();
@@ -55,11 +100,6 @@ class App extends React.Component {
       </div>
     );
   }
-}
-  
+} */
+
 export default App;
-
-          
-       
-      
-
