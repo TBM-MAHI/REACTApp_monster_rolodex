@@ -45,6 +45,7 @@ class App extends React.Component {
     
     return (
       <div>
+        <h1 className='app-title'> Monster Rolodex</h1>
         <Searchbox
           className="monster-search-box"
           onChangeHandler={serachOnChange}
