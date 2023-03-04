@@ -6,7 +6,6 @@ import Searchbox from "./components/search-box/Searchbox.component";
 const App = () => {
   console.log("render");
   const [searchField, setSearchField] = useState("");
-  const [testsearchField, settestSearchField] = useState("");
   const [monsters, setMonsters] = useState([]);
   const [filteredMonsters, setFilteredMonsters] = useState(monsters);
   // console.log(searchField);
@@ -29,11 +28,7 @@ const App = () => {
     let searchString = e.target.value.toLowerCase();
     setSearchField(searchString);
   };
-  const searchtest = (e) => {
-    settestSearchField(e.target.value)
-  };
-
-
+  
   return (
     <div>
       <h1 className="app-title"> Monster Rolodex</h1>
@@ -42,11 +37,11 @@ const App = () => {
         onChangeHandler={serachOnChange}
         placeholder="search monster"
       />
-      <Searchbox onChangeHandler={searchtest} />
       <Cardlist monsters={filteredMonsters} />
     </div>
   )
 };
+      
 /* class App extends React.Component {
   constructor() {
     console.log("1.constructor in app");
