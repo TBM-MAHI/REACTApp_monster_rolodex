@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/TBM-MAHI/.github.io/REACTApp_monster_rolodex/static/css/main.27f03682.css",
-    "main.js": "/TBM-MAHI/.github.io/REACTApp_monster_rolodex/static/js/main.ac245caa.js",
-    "static/js/787.050790fe.chunk.js": "/TBM-MAHI/.github.io/REACTApp_monster_rolodex/static/js/787.050790fe.chunk.js",
-    "index.html": "/TBM-MAHI/.github.io/REACTApp_monster_rolodex/index.html",
-    "main.27f03682.css.map": "/TBM-MAHI/.github.io/REACTApp_monster_rolodex/static/css/main.27f03682.css.map",
-    "main.ac245caa.js.map": "/TBM-MAHI/.github.io/REACTApp_monster_rolodex/static/js/main.ac245caa.js.map",
-    "787.050790fe.chunk.js.map": "/TBM-MAHI/.github.io/REACTApp_monster_rolodex/static/js/787.050790fe.chunk.js.map"
+    "main.css": "/TBM-MAHI.github.io/REACTApp_monster_rolodex/static/css/main.27f03682.css",
+    "main.js": "/TBM-MAHI.github.io/REACTApp_monster_rolodex/static/js/main.1eb051f9.js",
+    "static/js/787.050790fe.chunk.js": "/TBM-MAHI.github.io/REACTApp_monster_rolodex/static/js/787.050790fe.chunk.js",
+    "index.html": "/TBM-MAHI.github.io/REACTApp_monster_rolodex/index.html",
+    "main.27f03682.css.map": "/TBM-MAHI.github.io/REACTApp_monster_rolodex/static/css/main.27f03682.css.map",
+    "main.1eb051f9.js.map": "/TBM-MAHI.github.io/REACTApp_monster_rolodex/static/js/main.1eb051f9.js.map",
+    "787.050790fe.chunk.js.map": "/TBM-MAHI.github.io/REACTApp_monster_rolodex/static/js/787.050790fe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.27f03682.css",
-    "static/js/main.ac245caa.js"
+    "static/js/main.1eb051f9.js"
   ]
 }
