@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TBM-MAHI/REACTApp_monster_rolodex/static/css/main.27f03682.css",
+    "main.js": "/TBM-MAHI/REACTApp_monster_rolodex/static/js/main.1f2285c1.js",
+    "static/js/787.050790fe.chunk.js": "/TBM-MAHI/REACTApp_monster_rolodex/static/js/787.050790fe.chunk.js",
+    "index.html": "/TBM-MAHI/REACTApp_monster_rolodex/index.html",
+    "main.27f03682.css.map": "/TBM-MAHI/REACTApp_monster_rolodex/static/css/main.27f03682.css.map",
+    "main.1f2285c1.js.map": "/TBM-MAHI/REACTApp_monster_rolodex/static/js/main.1f2285c1.js.map",
+    "787.050790fe.chunk.js.map": "/TBM-MAHI/REACTApp_monster_rolodex/static/js/787.050790fe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27f03682.css",
+    "static/js/main.1f2285c1.js"
+  ]
+}
