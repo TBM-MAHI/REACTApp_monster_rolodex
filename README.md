@@ -14,18 +14,20 @@ Monster Rolodex
 
 
 ## Installation
-##### Run the following commands to run this project on localhost
+##### Run the following commands to run this project on Localhost :
 
 ```sh
-git clone 
+git clone https://github.com/TBM-MAHI/REACTApp_monster_rolodex.git
 ```
 ```sh
-cd  
+cd REACTApp_monster_rolodex
 ```
 ```sh
 npm install
 ```
-
+```sh
+npm run start
+```
 
 
    [API]: <http://jsonplaceholder.typicode.com/users>
