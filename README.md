@@ -1,18 +1,16 @@
 Monster Rolodex 
 ==============================
 
-
+## Live Demo [Here].
 ## A fun single page react application that
 - ##### displays a collection of Monster Cards.
 - ##### Fetches each Card text data and image from this [API] .
 - ##### The search box filters Cards on Input change.
-- ##### Show the filtered cards only.
+- ##### Shows the filtered cards only.
 
 
 ## Tech
-- [React JS] - HTML enhanced for web apps!
-- [Ace Editor] - awesome web-based text editor
-- [markdown-it] - Markdown parser done right. Fast and easy to extend.
+- [ReactJS] - A JavaScript library for building user interfaces.
 
 
 ## Installation
@@ -22,11 +20,14 @@ Monster Rolodex
 git clone 
 ```
 ```sh
-npm install
+cd  
 ```
 ```sh
-karma test
+npm install
 ```
 
 
 
+   [API]: <http://jsonplaceholder.typicode.com/users>
+   [Here]: <https://tbm-mahi.github.io/REACTApp_monster_rolodex/>
+   [ReactJS]: <https://reactjs.org/>
