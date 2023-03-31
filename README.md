@@ -2,7 +2,7 @@ Monster Rolodex
 ==============================
 
 ## Live Demo [Here].
-## A fun single page react application that
+## A fun single page React application that
 - ##### displays a collection of Monster Cards.
 - ##### Fetches each Card text data and image from this [API] .
 - ##### The search box filters Cards on Input change.
